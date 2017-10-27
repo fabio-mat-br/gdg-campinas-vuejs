@@ -40,6 +40,7 @@ export default {
           self.title = result.data.title
           self.post = result.data.body
           self.id = result.data.id
+          this.$emit('dataLoaded', result)
         })
       }
     },
@@ -60,7 +61,7 @@ export default {
           date: new Date()},
         json: true
       }).then(result => {
-        console.log(result)
+        this.$emit('dataSaved', result)
       })
     }
   }

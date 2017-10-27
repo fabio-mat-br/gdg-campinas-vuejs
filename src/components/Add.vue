@@ -1,7 +1,7 @@
 <template>
   <div id="add">
 <h1>Add</h1>
-<form-input />
+<form-input @dataSaved="displayInfo" />
 <!-- input type="text" name="title" id="title" v-model="title">
 <textarea name="post" rows="8" cols="80" v-model="post"></textarea>
 <button @click="doPost">Gravar</button -->
@@ -13,6 +13,11 @@ export default {
   name: 'add',
   components: {
     FormInput
+  },
+  methods: {
+    displayInfo (i) {
+      this.$router.push('/')
+    }
   }
 }
 </script>

@@ -1,10 +1,16 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "Foo",
-      "body": "Bar",
-      "date": "2017-10-27T21:43:26.662Z"
+      "id": 3,
+      "title": "ghfgh",
+      "body": "fdghfgh",
+      "date": "2017-10-27T21:47:32.769Z"
+    },
+    {
+      "id": 4,
+      "title": "dfa",
+      "body": "sdf",
+      "date": "2017-10-27T21:49:02.133Z"
     }
   ],
   "comments": [],

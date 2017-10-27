@@ -12,7 +12,6 @@ export default {
   },
   methods: {
     deleteData (id) {
-      debugger
       let self = this
       axios({
         method: 'DELETE',
@@ -20,6 +19,8 @@ export default {
       }).then(function (response) {
         self.gridCollection = response.data
       }).then(response => {
+        this.$emit('dataRemoved')
+        this.$router.push('/')
       })
     }
   }

@@ -9,7 +9,7 @@
       <textarea name="post" rows="8" cols="80" v-model="post" class="form-control"></textarea>
     </div>
     <div class="form-group">
-      <button @click="saveData" class="btn btn-primary">Gravar</button>
+      <button @click="saveData" class="btn btn-primary">Save</button>
     </div>
   </div>
 </template>

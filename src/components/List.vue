@@ -20,8 +20,8 @@ export default {
       'date': 'Date'
     },
     gridAction: [
-      {'title': 'Edit', action: '#/edit/'},
-      {'title': 'Delete', action: '#/delete/'}
+      {'title': 'Edit', action: '/edit/'},
+      {'title': 'Delete', action: '/delete/'}
     ]
   }),
   mounted () {

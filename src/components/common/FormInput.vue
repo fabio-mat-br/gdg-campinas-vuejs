@@ -6,6 +6,7 @@
       <input type="text" name="title" id="title" v-model="title" class="form-control">
     </div>
     <div class="form-group">
+      <label for="title">Post</label>
       <textarea name="post" rows="8" cols="80" v-model="post" class="form-control"></textarea>
     </div>
     <div class="form-group">
